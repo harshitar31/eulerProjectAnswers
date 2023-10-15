@@ -1,5 +1,5 @@
 #euler 5 (smallest positive number that is evenly divisible by all of the numbers from 1 to 20)
-'''
+
 smallestMultiple=0
 i=1
 while smallestMultiple<1:
@@ -7,4 +7,4 @@ while smallestMultiple<1:
         smallestMultiple=i
     i+=1
 print(smallestMultiple)
-'''
+
