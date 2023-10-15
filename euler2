@@ -1,5 +1,5 @@
 #euler 2 (By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.)
-'''
+
 num1=1
 num2=2
 tempVariable=0
@@ -11,4 +11,4 @@ while num2<4000000:
     if num1%2==0:
         sumOfEvenFib+=num1
 print(sumOfEvenFib)
-'''
+
