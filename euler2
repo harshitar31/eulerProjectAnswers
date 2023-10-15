@@ -1,0 +1,14 @@
+#euler 2 (By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.)
+'''
+num1=1
+num2=2
+tempVariable=0
+sumOfEvenFib=0
+while num2<4000000:
+    tempVariable=num1
+    num1=num2
+    num2+=tempVariable
+    if num1%2==0:
+        sumOfEvenFib+=num1
+print(sumOfEvenFib)
+'''
