@@ -1,5 +1,5 @@
 #euler 3 (largest prime factor of the number 600851475143)
-'''
+
 prime=True
 number=600851475143
 j=2
@@ -16,4 +16,3 @@ for factor in range(2,number):
         j=2
         prime=True
 print(primeFactors[-1])
-'''
