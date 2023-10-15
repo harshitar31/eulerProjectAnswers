@@ -1,0 +1,18 @@
+#euler 7 (10001st prime number)
+
+i=0
+number=2
+prime=True
+while True:
+    for num in range(2,number):
+        if number%num==0:
+            prime=False
+        num+=1
+    if prime:
+        i+=1
+        print(i)
+    if i==10001:
+        print(number)
+        break
+    number+=1
+    prime=True
