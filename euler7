@@ -10,7 +10,6 @@ while True:
         num+=1
     if prime:
         i+=1
-        print(i)
     if i==10001:
         print(number)
         break
